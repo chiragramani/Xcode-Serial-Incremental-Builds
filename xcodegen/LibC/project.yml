@@ -1,0 +1,13 @@
+name: LibC
+options:
+  bundleIdPrefix: com.myapp.LibC
+projectReferences:
+  LibE:
+    path: ../LibE/LibE.xcodeproj
+targets:
+  LibC:
+    type: library.static
+    platform: iOS
+    sources: LibC.swift
+    dependencies:
+      - target: LibE/LibE

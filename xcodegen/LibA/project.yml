@@ -1,0 +1,13 @@
+name: LibA
+options:
+  bundleIdPrefix: com.myapp.liba
+projectReferences:
+  LibE:
+    path: ../LibE/LibE.xcodeproj
+targets:
+  LibA:
+    type: library.static
+    platform: iOS
+    sources: LibA.swift
+    dependencies:
+      - target: LibE/LibE

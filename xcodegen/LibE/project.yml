@@ -1,0 +1,8 @@
+name: LibE
+options:
+  bundleIdPrefix: com.myapp.libe
+targets:
+  LibE:
+    type: library.static
+    platform: iOS
+    sources: LibE.swift

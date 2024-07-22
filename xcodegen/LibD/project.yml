@@ -1,0 +1,13 @@
+name: LibD
+options:
+  bundleIdPrefix: com.myapp.LibD
+projectReferences:
+  LibE:
+    path: ../LibE/LibE.xcodeproj
+targets:
+  LibD:
+    type: library.static
+    platform: iOS
+    sources: LibD.swift
+    dependencies:
+      - target: LibE/LibE

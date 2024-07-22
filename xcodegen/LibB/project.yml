@@ -1,0 +1,13 @@
+name: LibB
+options:
+  bundleIdPrefix: com.myapp.LibB
+projectReferences:
+  LibE:
+    path: ../LibE/LibE.xcodeproj
+targets:
+  LibB:
+    type: library.static
+    platform: iOS
+    sources: LibB.swift
+    dependencies:
+      - target: LibE/LibE

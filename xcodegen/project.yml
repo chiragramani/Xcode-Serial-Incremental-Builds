@@ -1,0 +1,31 @@
+name: MyProject
+options:
+  bundleIdPrefix: com.myapp
+projectReferences:
+  LibE:
+    path: LibE/LibE.xcodeproj
+  LibA:
+    path: LibA/LibA.xcodeproj
+  LibB:
+    path: LibB/LibB.xcodeproj
+  LibC:
+    path: LibC/LibC.xcodeproj
+  LibD:
+    path: LibD/LibD.xcodeproj
+settings:
+  configs:
+    debug:
+      SWIFT_COMPILATION_MODE: wholemodule
+    release:
+      SWIFT_COMPILATION_MODE: wholemodule
+targets:
+  MyApp:
+    type: library.static
+    platform: iOS
+    sources: [MyApp]
+    dependencies:
+      - target: LibE/LibE
+      - target: LibA/LibA
+      - target: LibB/LibB
+      - target: LibC/LibC
+      - target: LibD/LibD
