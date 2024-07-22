@@ -4,10 +4,16 @@ options:
 projectReferences:
   LibE:
     path: ../LibE/LibE.xcodeproj
+settings:
+  configs:
+    debug:
+      SWIFT_COMPILATION_MODE: wholemodule
+    release:
+      SWIFT_COMPILATION_MODE: wholemodule
 targets:
   LibA:
     type: library.static
     platform: iOS
-    sources: LibA.swift
+    sources: [Sources]
     dependencies:
       - target: LibE/LibE

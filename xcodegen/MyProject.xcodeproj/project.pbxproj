@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A06D12C48A98A7C56BE77AE /* all-imports.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5344D7E446705E46EBC9D /* all-imports.swift */; };
+		76D67A8C8B65CD3ACF36C494 /* entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DB8C048D3CC414C5CC5D9 /* entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,11 +85,11 @@
 
 /* Begin PBXFileReference section */
 		250239FC244903211A1AD903 /* libMyApp.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMyApp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1DB8C048D3CC414C5CC5D9 /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entry.swift; sourceTree = "<group>"; };
 		537E374454C4B6E7CE3AEC15 /* LibA */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibA; path = LibA/LibA.xcodeproj; sourceTree = "<group>"; };
 		CA48A32F488F07F384DCEDB5 /* LibE */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibE; path = LibE/LibE.xcodeproj; sourceTree = "<group>"; };
 		CC3016EF3488E40847740DC8 /* LibD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibD; path = LibD/LibD.xcodeproj; sourceTree = "<group>"; };
 		D6DEFF90AD518D3D8FB9426A /* LibC */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibC; path = LibC/LibC.xcodeproj; sourceTree = "<group>"; };
-		DFA5344D7E446705E46EBC9D /* all-imports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "all-imports.swift"; sourceTree = "<group>"; };
 		ECFFC081462D177772E3F475 /* LibB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibB; path = LibB/LibB.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,7 +113,7 @@
 		7F92603CCC4A3EE267C64468 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				DFA5344D7E446705E46EBC9D /* all-imports.swift */,
+				2A1DB8C048D3CC414C5CC5D9 /* entry.swift */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A06D12C48A98A7C56BE77AE /* all-imports.swift in Sources */,
+				76D67A8C8B65CD3ACF36C494 /* entry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

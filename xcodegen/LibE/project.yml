@@ -1,8 +1,14 @@
 name: LibE
 options:
   bundleIdPrefix: com.myapp.libe
+settings:
+  configs:
+    debug:
+      SWIFT_COMPILATION_MODE: wholemodule
+    release:
+      SWIFT_COMPILATION_MODE: wholemodule
 targets:
   LibE:
     type: library.static
     platform: iOS
-    sources: LibE.swift
+    sources: [Sources]
